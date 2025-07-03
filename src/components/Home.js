@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { Users, Sparkles, Zap, Heart, MessageCircle, Send, Music, ArrowDown } from 'lucide-react';
+import { Heart, MessageCircle, Send, Music, ArrowDown } from 'lucide-react';
 import './Home.css';
 
 const Home = () => {
@@ -61,8 +61,8 @@ const Home = () => {
           <div className="container">
             <div className={`hero-content ${isLoaded ? 'loaded' : ''}`}>
               <h1 className="hero-heading">
-                <span className="hero-line hero-line-1">Notre lavage auto</span>
-                <span className="hero-line hero-line-2">est en</span>
+                <span className="hero-line hero-line-1">Nos services de nettoyage</span>
+                <span className="hero-line hero-line-2">sont en</span>
                 <span className="hero-line hero-line-3"><strong>overdrive</strong></span>
               </h1>
             </div>
@@ -77,20 +77,20 @@ const Home = () => {
           <div className="journey-container">
             <div className="journey-text">
               <div className="journey-hashtag">
-                #fortheloveofclean
+                #nettoyageprofessionnel
               </div>
               <h2 className="journey-heading">
-                Nous sommes là pour le voyage,<br />
-                <span className="journey-highlight">où que cela vous mène.</span>
+                Nous sommes là pour tous vos besoins,<br />
+                <span className="journey-highlight">où que vous soyez.</span>
               </h2>
             </div>
             <div className="journey-image">
-              <img src="/images/porsche.jpg" alt="Porsche noire sur la route" className="journey-car-image" />
+              <img src="/images/porsche.jpg" alt="Service de nettoyage professionnel" className="journey-car-image" />
             </div>
           </div>
         </section>
 
-        {/* Interior Section - Déplacé plus haut */}
+        {/* Interior Section - Nettoyage intérieur */}
         <section className="interior-section">
           <div className="container">
             <div className="interior-content">
@@ -99,28 +99,28 @@ const Home = () => {
               </div>
               <div className="interior-text">
                 <h2 className="section-heading">
-                  Intérieur<br />
-                  <strong>impeccable</strong>
+                  Nettoyage<br />
+                  <strong>intérieur</strong>
                 </h2>
                 <p className="section-description">
-                  L'expérience premium se poursuit à l'intérieur. Nous traitons chaque surface avec une précision méticuleuse pour un résultat parfait.
+                  Canapés, matelas, tapis, appartements, maisons, bureaux. Nous traitons chaque surface avec une précision méticuleuse pour un résultat impeccable.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Video Porsche Section */}
+        {/* Video Section - Services automobiles */}
         <section className="video-section">
           <div className="container">
             <div className="video-content">
               <div className="video-text">
                 <h2 className="section-heading">
-                  Performance<br />
-                  <strong>exceptionnelle</strong>
+                  Nettoyage<br />
+                  <strong>automobile</strong>
                 </h2>
                 <p className="section-description">
-                  Quand la performance rencontre la pureté. Notre savoir-faire, au service de l'exception.
+                  Service mobile à domicile. Intérieur véhicule, particuliers et professionnels. L'excellence au service de votre mobilité.
                 </p>
               </div>
               <div className="video-wrapper">
@@ -139,47 +139,47 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Wheels Section */}
+        {/* Urban Section - Nettoyage urbain */}
         <section className="wheels-section">
           <div className="container">
             <div className="wheels-content">
               <div className="wheels-image">
-                <img src="/images/Jante.jpg" alt="Jante premium étincelante" />
+                <img src="/images/Jante.jpg" alt="Nettoyage urbain et espaces verts" />
               </div>
               <div className="wheels-text">
                 <h2 className="section-heading">
-                  Jantes<br />
-                  <strong>étincelantes</strong>
+                  Nettoyage<br />
+                  <strong>urbain</strong>
                 </h2>
                 <p className="section-description">
-                  Plus que propres, elles sont transformées. Un traitement spécifique pour des jantes qui redéfinissent l'éclat.
+                  Voiries, trottoirs, graffitis, aires de jeux, mobilier urbain. Tonte, taille, arrosage des espaces verts. La ville propre et entretenue.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Before-After Section */}
+        {/* Medical Section - Secteur médical */}
         <section className="transformation-section">
           <div className="container">
             <div className="transformation-content">
               <div className="transformation-text">
                 <h2 className="section-heading">
-                  Résultats<br />
-                  <strong>visibles</strong>
+                  Secteur<br />
+                  <strong>médical</strong>
                 </h2>
                 <p className="section-description">
-                  L'image vaut mille mots. Découvrez la transformation Luxe Wash.
+                  Cabinets médicaux, vétérinaires, cliniques, hôpitaux, laboratoires. Nettoyage spécialisé selon les normes d'hygiène les plus strictes.
                 </p>
               </div>
               <div className="transformation-image">
-                <img src="/images/After-before.jpg" alt="Avant-après transformation véhicule" />
+                <img src="/images/After-before.jpg" alt="Nettoyage médical professionnel" />
               </div>
             </div>
           </div>
         </section>
 
-        {/* Video Brabus Section - Final "Design" TikTok */}
+        {/* Video TikTok Section - Showcase services */}
         <section className="tiktok-section">
           <div className="tiktok-viewer">
             <div className="tiktok-viewer-frame">
@@ -198,11 +198,11 @@ const Home = () => {
                   <div className="tiktok-content-left">
                     <div className="tiktok-text">
                       <h3 className="tiktok-username">@luxewash</h3>
-                      <p className="tiktok-caption">Le traitement céramique Brabus, c'est une autre dimension ✨ #carwash #detailing #brabus</p>
+                      <p className="tiktok-caption">Nettoyage professionnel tous secteurs ✨ #nettoyage #professionnel #luxewash</p>
                     </div>
                     <div className="tiktok-music-ticker">
                       <Music size={16} className="tiktok-music-icon" />
-                      <div className="tiktok-music-name">son original - Luxe Wash Official</div>
+                      <div className="tiktok-music-name">son original - Luxe Wash Professional</div>
                     </div>
                   </div>
                   <div className="tiktok-content-right">
@@ -214,15 +214,15 @@ const Home = () => {
                     <div className="tiktok-actions">
                       <div className="tiktok-action">
                         <Heart size={32} />
-                        <span>1.2M</span>
+                        <span>2.1M</span>
                       </div>
                       <div className="tiktok-action">
                         <MessageCircle size={32} />
-                        <span>45.1K</span>
+                        <span>67.3K</span>
                       </div>
                       <div className="tiktok-action">
                         <Send size={32} />
-                        <span>89.4K</span>
+                        <span>124K</span>
                       </div>
                     </div>
                   </div>
@@ -232,34 +232,34 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Features Section - "Manifesto" Design 2.0 */}
+        {/* Features Section - "Manifesto" Design */}
         <section className="manifesto-section">
           <div className="manifesto-container">
             <ol className="manifesto-list" ref={manifestoListRef}>
               <li className="manifesto-item">
                 <span className="manifesto-number">01</span>
                 <div className="manifesto-content">
-                  <h2 className="manifesto-title">La <strong>technologie.</strong></h2>
+                  <h2 className="manifesto-title">La <strong>polyvalence.</strong></h2>
                   <p className="manifesto-description">
-                    Nous intégrons les innovations les plus récentes pour un lavage qui redéfinit la propreté. Chaque passage est une avancée.
+                    Intérieur, automobile, urbain, médical. Nous maîtrisons tous les secteurs du nettoyage avec la même excellence et le même professionnalisme.
                   </p>
                 </div>
               </li>
               <li className="manifesto-item">
                 <span className="manifesto-number">02</span>
                 <div className="manifesto-content">
-                  <h2 className="manifesto-title">Le <strong>service.</strong></h2>
+                  <h2 className="manifesto-title">La <strong>mobilité.</strong></h2>
                   <p className="manifesto-description">
-                    Du simple lavage aux soins les plus détaillés, nous offrons une expérience adaptée à vos exigences. L'excellence n'est pas une option, c'est notre unique standard.
+                    Service à domicile, intervention sur site, solutions mobiles. Nous venons à vous avec tout l'équipement nécessaire pour un service optimal.
                   </p>
                 </div>
               </li>
               <li className="manifesto-item">
                 <span className="manifesto-number">03</span>
                 <div className="manifesto-content">
-                  <h2 className="manifesto-title">La <strong>passion.</strong></h2>
+                  <h2 className="manifesto-title">L'<strong>expertise.</strong></h2>
                   <p className="manifesto-description">
-                    Notre équipe est notre plus grande fierté. Des experts dévoués qui partagent une seule obsession : la perfection de votre véhicule.
+                    Normes d'hygiène strictes, techniques spécialisées, formation continue. Notre équipe est notre plus grande fierté et votre garantie de qualité.
                   </p>
                 </div>
               </li>
@@ -271,8 +271,8 @@ const Home = () => {
         <section className="membership-section">
           <div className="container">
             <h2 className="section-heading">
-              découvrez nos abonnements<br />
-              <strong className="exclusive-text">illimités exclusifs</strong>
+              découvrez nos contrats<br />
+              <strong className="exclusive-text">d'entretien régulier</strong>
             </h2>
           </div>
         </section>
@@ -281,11 +281,11 @@ const Home = () => {
         <section className="excitement-section">
           <div className="container">
             <h2 className="section-heading excitement-title">
-              Avez-vous déjà été excité<br />
-              par un lavage auto ?
+              Avez-vous déjà été impressionné<br />
+              par un service de nettoyage ?
             </h2>
             <p className="excitement-subtitle">
-              Nous non plus.
+              Nous non plus, avant de créer le nôtre.
             </p>
             <Link to="/contact" className="cta-button">
               Commencer
@@ -306,16 +306,16 @@ const Home = () => {
             
             <div className="career-images">
               <div className="career-frame">
-                <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Frame 598" className="career-image" />
+                <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Équipe nettoyage" className="career-image" />
               </div>
               <div className="career-frame">
-                <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Frame 597" className="career-image" />
+                <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Professionnel nettoyage" className="career-image" />
               </div>
               <div className="career-frame">
-                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Frame 599" className="career-image" />
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Service client" className="career-image" />
               </div>
               <div className="career-frame">
-                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Frame 600" className="career-image" />
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Équipe diverse" className="career-image" />
               </div>
             </div>
 
@@ -333,7 +333,7 @@ const Home = () => {
         </section>
       </main>
 
-      {/* Footer - Structure exacte */}
+      {/* Footer */}
       <footer className="footer">
         <div className="footer-container">
           <nav className="footer-nav">
